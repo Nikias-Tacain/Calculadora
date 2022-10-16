@@ -1,0 +1,183 @@
+.index__body{
+    background-color: cadetblue;
+}
+.index__header{
+    display: flex;
+    justify-content: center;
+}
+.visor{
+    background-color: aliceblue;
+    border: 1px solid black;
+    width: 28%;
+    margin-left: 35%;
+    font-size: 35px;
+}
+.numeros{
+    display: flex;
+    justify-content: flex-end;
+}
+.calculadora{
+    margin-left: 35%;
+    margin-top: 5%;
+    width: 28%;
+    height: 25%;
+    border: 1px solid black;
+}
+.botones{
+    display: flex;
+}
+.igual{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+}
+.punto{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+    margin-right: 10px;
+}
+.cero{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+    margin-right: 10px;
+}
+.masMenos{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+    margin-right: 10px;
+}
+.segundaIlera{
+    display: flex;
+    margin-bottom: 10px;
+}
+.mas{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+}
+.tres{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+    margin-right: 10px;
+}
+.dos{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+    margin-right: 10px;
+}
+.uno{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+    margin-right: 10px;
+}
+.tercerIlera{
+    display: flex;
+    margin-bottom: 10px;
+}
+.menos{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+}
+.seis{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+    margin-right: 10px;
+}
+.cinco{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+    margin-right: 10px;
+}
+.cuatro{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+    margin-right: 10px;
+}
+.cuartaIlera{
+    display: flex;
+    margin-bottom: 10px;
+}
+.siete{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+    margin-right: 10px;
+}
+.ocho{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+    margin-right: 10px;
+}
+.nueve{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+    margin-right: 10px;
+}
+.multiplicar{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+}
+.quintaIlera{
+    display: flex;
+    margin-bottom: 10px;
+}
+.resetear{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+    margin-right: 10px;
+}
+.parentesis{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+    margin-right: 10px;
+}
+.porcentaje{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+    margin-right: 10px;
+}
+.dividir{
+    border: 1px solid white;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 75px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
