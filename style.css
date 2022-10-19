@@ -1,183 +1,52 @@
 .index__body{
     background-color: cadetblue;
 }
-.index__header{
+.calculadora{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 15px;
 }
-.visor{
-    background-color: aliceblue;
-    border: 1px solid black;
-    width: 28%;
-    margin-left: 35%;
-    font-size: 35px;
+.calculator{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid gray;
+}
+.calculator-display{
+    padding: 25px 0px;
+    width: 100%;
+    text-align: right;
+    border: 1px solid gray;
+    overflow-x: auto;
+    font-size: 20px;
+}
+.calculator-teclado{
+    display: flex;
+    width: 107%;
 }
 .numeros{
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
 }
-.calculadora{
-    margin-left: 35%;
-    margin-top: 5%;
-    width: 28%;
-    height: 25%;
-    border: 1px solid black;
+.numeros-bottones{
+    width: 23%;
+    padding: 15px 0px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid gray;
 }
-.botones{
-    display: flex;
+.numeros-bottones:hover{
+    filter: brightness(80%);
+    transition: filter .25s;
 }
-.igual{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
+.yellow{
+    background-color: yellow;
 }
-.punto{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-    margin-right: 10px;
+.large{
+    width: 46.5%;
 }
-.cero{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-    margin-right: 10px;
-}
-.masMenos{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-    margin-right: 10px;
-}
-.segundaIlera{
-    display: flex;
-    margin-bottom: 10px;
-}
-.mas{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-}
-.tres{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-    margin-right: 10px;
-}
-.dos{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-    margin-right: 10px;
-}
-.uno{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-    margin-right: 10px;
-}
-.tercerIlera{
-    display: flex;
-    margin-bottom: 10px;
-}
-.menos{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-}
-.seis{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-    margin-right: 10px;
-}
-.cinco{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-    margin-right: 10px;
-}
-.cuatro{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-    margin-right: 10px;
-}
-.cuartaIlera{
-    display: flex;
-    margin-bottom: 10px;
-}
-.siete{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-    margin-right: 10px;
-}
-.ocho{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-    margin-right: 10px;
-}
-.nueve{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-    margin-right: 10px;
-}
-.multiplicar{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-}
-.quintaIlera{
-    display: flex;
-    margin-bottom: 10px;
-}
-.resetear{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-    margin-right: 10px;
-}
-.parentesis{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-    margin-right: 10px;
-}
-.porcentaje{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-    margin-right: 10px;
-}
-.dividir{
-    border: 1px solid white;
-    width: 90px;
-    border-radius: 15px;
-    font-size: 75px;
-}
-.boton{
-    display: flex;
-    justify-content: center;
-}
+
