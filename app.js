@@ -1,22 +1,3 @@
-/*ciclo for*/
-/*
-for (let index = 0; index <= 10; index++) {
-    console.log(index);    
-}
-*/
-
-
-
-
-/* funciones*/
-/*
-let nombre = "nikias"
-function hola() {
-    console.log("hola" + " " + nombre);
-}
-hola ()
-*/
-
 /*agregarNumero(numero){
     if (numero == '.' && this.valorActual.includes('.')) {
         return
@@ -28,7 +9,6 @@ hola ()
 window.addEventListener('load', ()=>{
     const display = document.getElementById("calculator-display");
     const numeros = document.querySelectorAll(".numeros-bottones");
-
     const numeroArray = Array.from(numeros);
 
     numeroArray.forEach((button)=>{
@@ -46,7 +26,11 @@ function calculadora(button, display) {
         case '=':
             calcular(display);
             break;
-    
+        
+        case '←':
+            suprimir(display);
+            break;
+
         default:
             actualizar(display, button)
             break;
